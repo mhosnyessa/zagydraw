@@ -51,7 +51,8 @@ class TextAction {
             execute: () => {
                 const { currentText, setCurrentText } = useStore.getState();
                 setCurrentText(text);
-                if (currentText === "") return;
+                // useless line
+                // if (currentText === "") return;
             },
         };
     }
