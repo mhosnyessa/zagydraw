@@ -4,6 +4,7 @@ import { Point, normalizePos } from "utils";
 import { generateTextElement } from "utils/canvas/generateElement";
 import { Command, UndoableCommand } from "./types";
 
+//
 class TextAction {
     private static lastMouseDownPosition: Point = [0, 0];
     private static isAlreadyElement: boolean;
