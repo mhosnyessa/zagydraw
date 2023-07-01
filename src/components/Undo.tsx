@@ -6,10 +6,10 @@ export default function Undo() {
         {
             onShortcut: () => commandManager.undoCommand(),
             orderMatters: true,
+            continueWhilePressed: true,
         },
         "ControlLeft",
-        "z",
-        "q"
+        "z"
     );
     return (
         <button
